@@ -1,0 +1,180 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: "lato",serif;
+}
+
+.header {
+  position: absolute;
+  margin-top: 24px;
+  margin-left: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.bar1 {
+  display:none;
+}
+
+/* #########
+#########
+DISPLAY MENU  */
+
+/* .bar2 {
+  display: none;
+}   */
+
+.header{
+  margin: 0%;
+}
+
+.bar2 {
+  display:flex;
+  position: fixed;
+  background-color: #272a31;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.bar2-item {
+  margin-top: 20px;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bar2-item a{
+  color: beige;
+}
+
+.logo {
+  display:none
+}
+
+
+/* #########
+#########
+DISPLAY MENU  */
+
+.hello {
+  background-image:url(./images/mainbg.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 760px) {
+  .header {
+    position: static;
+    margin: 0px;
+  }
+
+  .phone-menu {
+    display: none;
+  }
+
+  .bar1 {
+    background-color: #272a31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+  }
+  
+  .bar1-list {
+    display: flex;
+    width: 75%;
+    justify-content: flex-end;
+  }
+  
+  .logo{
+    display: contents;
+  }
+
+  .topbar {
+    margin: 0px 8px 0px 8px;
+    color:#d3d3d3
+  }
+  
+  .topbar:hover {
+    color: #ec5242;
+  }
+  
+  .fa-twitter {
+    margin-right: 12px;
+  }
+  
+  .log-out {
+    margin-right: 0px;
+  }
+  
+  .logo-img {
+    width: 150px;
+  }
+  
+  .bar2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bar2-container {
+    display:flex;
+    width:75%;
+    justify-content: space-between;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-list {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bar2-item {
+    margin: 0px 0px 0px 30px;
+  }
+  
+  .bar2-item a {
+    font-family: "lato", serif;
+    color: #272a31;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .concertbut {
+    border: #ec5242 2px solid;
+    padding: 5px 15px;
+  }
+  
+  .concertbut a {
+    color: #ec5242;
+    font-weight: 700;
+  }
+
+}  
