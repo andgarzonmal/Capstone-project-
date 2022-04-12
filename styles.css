@@ -117,12 +117,57 @@ DISPLAY MENU  */
   color: #ec534270;
   -webkit-background-clip: text;
   font-weight: bold;
+  font-family: "cocogoose", sans-serif;
+  line-height: 46px;
+  padding: 16px 0px;
+}
+
+.legend {
+  border: 3px solid white;
+  background: #f3efef;
+  margin-top: 24px;
+}
+
+.date {
+  color: rgb(87, 87, 87);
+  font-family: "cocogoose", sans-serif;
+  font-weight: bold;
+  margin-top: 30px;
 }
 
 @media screen and (min-width: 760px) {
+ 
   .header {
     position: static;
     margin: 0%;
+  }
+  
+  .welcometitle {
+    font-size: 4rem;
+    line-height: 70px;
+    max-width: 70%;
+  }
+
+  .hello {
+    justify-content: center;
+    height: 90vh;
+  }
+
+  .first-section {
+    width: 75%;
+  }
+
+  .welcome {
+    font-size: 2rem;
+  }
+
+  .legend {
+    max-width: 60%;
+    font-size: 20px;
+  }
+
+  .date {
+    font-size: x-large;
   }
 
   .clear-btn {
@@ -169,7 +214,7 @@ DISPLAY MENU  */
   }
 
   .logo-img {
-    width: 150px;
+    width: 110px;
   }
 
   .bar2 {
