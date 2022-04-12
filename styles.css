@@ -11,7 +11,7 @@ html,
 body {
   max-width: 100%;
   overflow-x: hidden;
-  font-family: "lato",serif;
+  font-family: "lato", serif;
 }
 
 .header {
@@ -29,7 +29,7 @@ li {
 }
 
 .bar1 {
-  display:none;
+  display: none;
 }
 
 .bar2 {
@@ -45,16 +45,16 @@ DISPLAY MENU  */
   margin: 0%;
 }
 
-.my-menu{
-  display:flex;
+.my-menu {
+  display: flex;
   position: fixed;
   background-color: #272a31;
   width: 100vw;
   height: 100vh;
-  margin: 0px;
+  margin: 0;
   justify-content: center;
   align-items: center;
-} 
+}
 
 .my-menu-list {
   align-items: center;
@@ -64,8 +64,8 @@ DISPLAY MENU  */
 }
 
 .logo {
-  display:none;
-} 
+  display: none;
+}
 
 .bar2-item {
   margin-top: 20px;
@@ -77,7 +77,7 @@ DISPLAY MENU  */
   font-size: 22px;
 }
 
-.clear{
+.clear {
   display: none;
   position: absolute;
   top: 0;
@@ -91,16 +91,40 @@ DISPLAY MENU  */
 DISPLAY MENU  */
 
 .hello {
-  background-image:url(./images/mainbg.png);
+  background-image: url(./images/mainbg.png);
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.first-section {
+  margin: 24px;
+}
+
+.welcome {
+  color: #ec5242;
+  font-family: "lato" serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.welcometitle {
+  background-image: url(./images/textbg.jpg);
+  background-size: cover;
+  background-position-y: center;
+  font-size: 3rem;
+  color: #ec534270;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 760px) {
   .header {
     position: static;
-    margin: 0px;
+    margin: 0;
   }
 
   .clear-btn {
@@ -118,79 +142,78 @@ DISPLAY MENU  */
     align-items: center;
     height: 30px;
   }
-  
+
   .bar1-list {
     display: flex;
     width: 75%;
     justify-content: flex-end;
   }
-  
-  .logo{
+
+  .logo {
     display: contents;
   }
 
   .topbar {
-    margin: 0px 8px 0px 8px;
-    color:#d3d3d3
+    margin: 0 8px 0 8px;
+    color: #d3d3d3;
   }
-  
+
   .topbar:hover {
     color: #ec5242;
   }
-  
+
   .fa-twitter {
     margin-right: 12px;
   }
-  
+
   .log-out {
-    margin-right: 0px;
+    margin-right: 0;
   }
-  
+
   .logo-img {
     width: 150px;
   }
-  
+
   .bar2 {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
+
   .bar2-container {
-    display:flex;
-    width:75%;
+    display: flex;
+    width: 75%;
     justify-content: space-between;
   }
-  
+
   .nav-links {
     display: flex;
     align-items: center;
   }
-  
+
   .nav-list {
     display: flex;
     align-items: center;
   }
-  
+
   .bar2-item {
-    margin: 0px 0px 0px 30px;
+    margin: 0 0 0 30px;
   }
-  
+
   .bar2-item a {
     font-family: "lato", serif;
     color: #272a31;
     font-weight: 500;
     font-size: 20px;
   }
-  
+
   .concertbut {
     border: #ec5242 2px solid;
     padding: 5px 15px;
   }
-  
+
   .concertbut a {
     color: #ec5242;
     font-weight: 700;
   }
-
-}  
+}
