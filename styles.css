@@ -36,10 +36,6 @@ li {
   display: none;
 }
 
-/* #########
-#########
-DISPLAY MENU  */
-
 .header-menu {
   margin: 0%;
 }
@@ -85,16 +81,12 @@ DISPLAY MENU  */
   color: beige;
 }
 
-/* #########
-#########
-DISPLAY MENU  */
-
 .hello {
   background-image: url(./images/mainbg.png);
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-  display: flex;
+  display: flex; 
   align-items: center;
 }
 
@@ -119,7 +111,7 @@ DISPLAY MENU  */
   font-weight: bold;
   font-family: "cocogoose", sans-serif;
   line-height: 46px;
-  padding: 16px 0px;
+  padding: 16px 0;
 }
 
 .legend {
@@ -153,12 +145,13 @@ DISPLAY MENU  */
   flex-direction: column;
   justify-content: center;
 }
+
 .main-header {
   margin: 0 auto;
 }
 
 .main-title {
-  font-family: "lato" ,sans-serif;
+  font-family: "lato", sans-serif;
 }
 
 .main-line {
@@ -175,7 +168,7 @@ DISPLAY MENU  */
 }
 
 .program-items {
-  background:rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.1);
   margin-bottom: 10px;
   display: flex;
   align-items: center;
@@ -194,20 +187,60 @@ DISPLAY MENU  */
 }
 
 .concert-ti {
-  margin-right:31px ;
+  margin-right: 31px;
 }
 
 .gallery-ti {
   margin-right: 33px;
 }
 
+/* about #######################################################*/
+
+.about-hello {
+  background-image: url(./images/mainbg.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex; 
+  align-items: center;
+}
+
+.about-first-section {
+  margin: 24px;
+}
+
+.about-welcome {
+  color: #ec5242;
+  font-family: "lato", serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.about-welcome-title {
+  background-image: url(./images/textbg.jpg);
+  background-size: cover;
+  background-position-y: center;
+  font-size: 3rem;
+  color: #ec534270;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  font-family: "cocogoose", sans-serif;
+  line-height: 46px;
+  padding: 16px 0;
+}
+
+.about-legend {
+  border: 3px solid white;
+  background: #f3efef;
+  margin-top: 24px;
+}
+
 @media screen and (min-width: 760px) {
- 
   .header {
     position: static;
     margin: 0%;
   }
-  
+
   .welcometitle {
     font-size: 4rem;
     line-height: 70px;
@@ -328,7 +361,6 @@ DISPLAY MENU  */
 }
 
 @media screen and (min-width: 1024px) {
-  
   .main-program {
     align-items: center;
   }
@@ -344,11 +376,11 @@ DISPLAY MENU  */
   }
 
   .title-main {
-    margin: 0px;
+    margin: 0;
   }
 
   .gallery-pa {
-    margin: 0px 12px 12px 12px;
+    margin: 0 12px 12px 12px;
     padding-bottom: 12px;
   }
 }
