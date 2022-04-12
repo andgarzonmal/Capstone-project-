@@ -71,12 +71,19 @@ DISPLAY MENU  */
   margin-top: 20px;
 }
 
+.bar2-item a {
+  color: beige;
+  font-family: "cocogoose" serif;
+  font-size: 22px;
+}
+
 .clear{
   display: none;
   position: absolute;
   top: 0;
   left: 0;
   margin: 24px;
+  color: beige;
 }
 
 /* #########
