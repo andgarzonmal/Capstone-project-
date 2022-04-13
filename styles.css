@@ -86,7 +86,7 @@ li {
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-  display: flex; 
+  display: flex;
   align-items: center;
 }
 
@@ -390,7 +390,6 @@ li {
     width: 80%;
   }
 
-  
   .welcome {
     font-size: 2rem;
   }
