@@ -362,9 +362,10 @@ li {
   background-size: cover;
   flex-direction: column;
   color: white;
-} 
+}
 
 @media screen and (min-width: 760px) {
+  
   .header {
     position: static;
     margin: 0%;
