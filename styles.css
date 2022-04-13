@@ -194,14 +194,14 @@ li {
   margin-right: 33px;
 }
 
-/* about #######################################################*/
+/* about ####################################################### */
 
 .about-hello {
   background-image: url(./images/mainbg.png);
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-  display: flex; 
+  display: flex;
   align-items: center;
 }
 
@@ -272,7 +272,7 @@ li {
 .about-logo-line {
   height: 2px;
   width: 20%;
-  background-color:#ec5242;
+  background-color: #ec5242;
   margin-bottom: 12px;
 }
 
@@ -282,7 +282,7 @@ li {
   margin-top: 24px;
 }
 
-.about-logo-text p{
+.about-logo-text p {
   margin: 16px;
   font-size: 14px;
   text-align: justify;
@@ -319,7 +319,6 @@ li {
   margin: 24px;
 }
 
-
 .about-concerts-title {
   font-family: "cocogoose", sans-serif;
   text-align: center;
@@ -342,7 +341,7 @@ li {
   align-items: center;
   justify-content: center;
   background-position: center;
-  background-color:#ec5242;
+  background-color: #ec5242;
   background-blend-mode: multiply;
   background-size: cover;
   flex-direction: column;
@@ -357,7 +356,7 @@ li {
   align-items: center;
   justify-content: center;
   background-position: center;
-  background-color:#ec5242;
+  background-color: #ec5242;
   background-blend-mode: multiply;
   background-size: cover;
   flex-direction: column;
@@ -365,7 +364,6 @@ li {
 }
 
 @media screen and (min-width: 760px) {
-  
   .header {
     position: static;
     margin: 0%;
@@ -394,24 +392,24 @@ li {
   .welcome {
     font-size: 2rem;
   }
-  
+
   .legend {
     max-width: 60%;
     font-size: 20px;
   }
-  
+
   .date {
     font-size: x-large;
   }
-  
+
   .clear-btn {
     display: none;
   }
-  
+
   .phone-menu {
     display: none;
   }
-  
+
   .bar1 {
     background-color: #272a31;
     display: flex;
@@ -419,81 +417,81 @@ li {
     align-items: center;
     height: 30px;
   }
-  
+
   .bar1-list {
     display: flex;
     width: 80%;
     justify-content: flex-end;
   }
-  
+
   .logo {
     display: contents;
   }
-  
+
   .topbar {
     margin: 0 8px 0 8px;
     color: #d3d3d3;
   }
-  
+
   .topbar:hover {
     color: #ec5242;
   }
-  
+
   .fa-twitter {
     margin-right: 12px;
   }
-  
+
   .log-out {
     margin-right: 0%;
   }
-  
+
   .logo-img {
     width: 110px;
   }
-  
+
   .bar2 {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
+
   .bar2-container {
     display: flex;
     width: 80%;
     justify-content: space-between;
   }
-  
+
   .nav-links {
     display: flex;
     align-items: center;
   }
-  
+
   .nav-list {
     display: flex;
     align-items: center;
   }
-  
+
   .bar2-item {
     margin: 0 0 0 30px;
   }
-  
+
   .bar2-item a {
     font-family: "lato", serif;
     color: #272a31;
     font-weight: 500;
     font-size: 20px;
   }
-  
+
   .concertbut {
     border: #ec5242 2px solid;
     padding: 5px 15px;
   }
-  
+
   .concertbut a {
     color: #ec5242;
     font-weight: 700;
   }
-  
+
   .about-welcome-title {
     text-align: center;
     font-size: 60px;
@@ -510,7 +508,7 @@ li {
     line-height: 30px;
   }
 
-  .about-logo-text p{
+  .about-logo-text p {
     font-size: 20px;
   }
 
