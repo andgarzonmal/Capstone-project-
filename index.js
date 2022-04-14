@@ -72,7 +72,7 @@ const invitedSoloists = [
   {
     cardid: 'card2',
     soloist: 'Manuel Barrueco',
-    photo: './images/Manuel.jpg',
+    photo: './images/Barrueco2.jpg',
     description: 'Manuel Barrueco is a Cuban classical guitarist. During three decades of concert performances he has performed and recorded across the United States ',
     instrument: 'Guitar',
   },
