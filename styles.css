@@ -1,0 +1,674 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: "lato", serif;
+}
+
+.header {
+  position: absolute;
+  margin-top: 24px;
+  margin-left: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.bar1 {
+  display: none;
+}
+
+.bar2 {
+  display: none;
+}
+
+.header-menu {
+  margin: 0%;
+}
+
+.my-menu {
+  display: flex;
+  position: fixed;
+  background-color: #272a31;
+  width: 100vw;
+  height: 100vh;
+  margin: 0%;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-menu-list {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  display: none;
+}
+
+.bar2-item {
+  margin-top: 20px;
+}
+
+.bar2-item a {
+  color: beige;
+  font-family: "cocogoose", serif;
+  font-size: 22px;
+}
+
+.clear {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 24px;
+  color: beige;
+}
+
+.hello {
+  background-image: url(./images/mainbg.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.first-section {
+  margin: 24px;
+}
+
+.welcome {
+  color: #ec5242;
+  font-family: "lato", serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.welcometitle {
+  background-image: url(./images/textbg.jpg);
+  background-size: cover;
+  background-position-y: center;
+  font-size: 3rem;
+  color: #ec534270;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  font-family: "cocogoose", sans-serif;
+  line-height: 46px;
+  padding: 16px 0;
+}
+
+.legend {
+  border: 3px solid white;
+  background: #f3efef;
+  margin-top: 24px;
+}
+
+.date {
+  color: rgb(87, 87, 87);
+  font-family: "cocogoose", sans-serif;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.main-program-container {
+  background-image: url(./images/pattern_bg.png);
+  background-color: rgb(39 42 50);
+  background-repeat: repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.main-program {
+  margin: 24px 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-header {
+  margin: 0 auto;
+}
+
+.main-title {
+  font-family: "lato", sans-serif;
+}
+
+.main-line {
+  height: 3px;
+  background-color: #ec5242;
+  margin: 10px auto;
+  width: 60%;
+  border-radius: 15%;
+}
+
+.concert {
+  width: 40px;
+  margin: 8px 12px 8px 12px;
+}
+
+.program-items {
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-main {
+  color: #ec5242;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.program-pa {
+  font-size: 14px;
+  margin: 12px;
+}
+
+.concert-ti {
+  margin-right: 31px;
+}
+
+.gallery-ti {
+  margin-right: 33px;
+}
+
+.soloists {
+  display: flex;
+  flex-direction: column;
+  margin: 12px;
+}
+
+.cards {
+  display: flex;
+}
+
+.cards-img {
+  width: 160px;
+  height: 130px;
+  box-shadow: 10px 16px #8888883d;
+}
+
+.cards-text {
+  margin-left: 12px;
+  max-width: 250px;
+}
+
+.soloists-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.instruments {
+  margin-top: 10px;
+  font-family: "lato", serif;
+  font-weight: 800;
+  color: #ec5242;
+  font-size: 17px;
+}
+
+.description {
+  text-align: justify;
+  font-family: "lato", serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.partners {
+  margin-top: 24px;
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #d3d3d3;
+}
+
+.partners-line {
+  height: 2px;
+  background-color: #ec5242;
+  width: 80px;
+  margin: 0 auto;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.title-sponsor {
+  text-align: center;
+}
+
+.sponsores-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.image-sponsore {
+  width: 150px;
+}
+
+.images {
+  margin: 10px;
+}
+
+#soloists-header {
+  margin-top: 24px;
+  margin-bottom: 25px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-img {
+  width: 250px;
+}
+
+.footer p {
+  text-align: center;
+  font-family: "lato", sans-serif;
+  font-weight: 100;
+}
+
+/* about ####################################################### */
+
+.about-hello {
+  background-image: url(./images/mainbg.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.about-first-section {
+  margin: 24px;
+}
+
+.about-welcome {
+  color: #ec5242;
+  font-family: "lato", serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.about-welcome-title {
+  background-image: url(./images/textbg.jpg);
+  background-size: cover;
+  background-position-y: center;
+  font-size: 3rem;
+  color: #ec534270;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  font-family: "cocogoose", sans-serif;
+  line-height: 46px;
+  padding: 16px 0;
+}
+
+.about-legend {
+  border: 2px solid rgb(235, 229, 229);
+  background: #fff;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.about-legend p {
+  margin: 12px;
+  font-size: 14px;
+  text-align: justify;
+  font-family: "lato", serif;
+  font-weight: 100;
+}
+
+.about-get-in-touch {
+  text-align: center;
+  font-size: 14px;
+}
+
+.about-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.about-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 24px;
+}
+
+.about-music-title {
+  font-family: "cocogoose", sans-serif;
+  text-align: center;
+}
+
+.about-logo-line {
+  height: 2px;
+  width: 20%;
+  background-color: #ec5242;
+  margin-bottom: 12px;
+}
+
+.about-logo-text {
+  border: 2px solid rgb(235, 229, 229);
+  background: #fff;
+  margin-top: 24px;
+}
+
+.about-logo-text p {
+  margin: 16px;
+  font-size: 14px;
+  text-align: justify;
+  font-family: "lato", serif;
+  font-weight: 100;
+}
+
+.about-logo-img {
+  width: 300px;
+}
+
+.about-end-logo-line {
+  width: 100%;
+  height: 1px;
+  background: rgb(153, 150, 150);
+}
+
+.about-concerts-container {
+  width: 100%;
+}
+
+.about-concerts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 24px;
+}
+
+.about-concerts p {
+  font-family: 'Lato', sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  margin: 24px;
+}
+
+.about-concerts-title {
+  font-family: "cocogoose", sans-serif;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.about-concerts-imgs {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 12px;
+  width: 100%;
+  gap: 3px;
+}
+
+.about-concert1 {
+  padding: 60px;
+  background-image: url(./images/filarmonica-di-san-pietroburgo2.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-color: #ec5242;
+  background-blend-mode: multiply;
+  background-size: cover;
+  flex-direction: column;
+  color: white;
+}
+
+.about-concert2 {
+  padding: 60px;
+  background-image: url(./images/filarmonica-di-san-pietroburgo2.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-color: #ec5242;
+  background-blend-mode: multiply;
+  background-size: cover;
+  flex-direction: column;
+  color: white;
+}
+
+.about-footer {
+  background-color: #272a31;
+  padding-top: 12px;
+}
+
+.about-footer p {
+  color: white;
+  margin-left: 12px;
+}
+
+@media screen and (min-width: 760px) {
+  .header {
+    position: static;
+    margin: 0%;
+  }
+
+  .welcometitle {
+    font-size: 4rem;
+    line-height: 70px;
+    max-width: 70%;
+  }
+
+  .hello {
+    justify-content: center;
+    height: 90vh;
+  }
+
+  .about-hello {
+    justify-content: center;
+    height: 90vh;
+  }
+
+  .first-section {
+    width: 80%;
+  }
+
+  .welcome {
+    font-size: 2rem;
+  }
+
+  .legend {
+    max-width: 60%;
+    font-size: 20px;
+  }
+
+  .date {
+    font-size: x-large;
+  }
+
+  .clear-btn {
+    display: none;
+  }
+
+  .phone-menu {
+    display: none;
+  }
+
+  .bar1 {
+    background-color: #272a31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+  }
+
+  .bar1-list {
+    display: flex;
+    width: 80%;
+    justify-content: flex-end;
+  }
+
+  .logo {
+    display: contents;
+  }
+
+  .topbar {
+    margin: 0 8px 0 8px;
+    color: #d3d3d3;
+  }
+
+  .topbar:hover {
+    color: #ec5242;
+  }
+
+  .fa-twitter {
+    margin-right: 12px;
+  }
+
+  .log-out {
+    margin-right: 0%;
+  }
+
+  .logo-img {
+    width: 110px;
+  }
+
+  .bar2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bar2-container {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-list {
+    display: flex;
+    align-items: center;
+  }
+
+  .bar2-item {
+    margin: 0 0 0 30px;
+  }
+
+  .bar2-item a {
+    font-family: "lato", serif;
+    color: #272a31;
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .concertbut {
+    border: #ec5242 2px solid;
+    padding: 5px 15px;
+  }
+
+  .concertbut a {
+    color: #ec5242;
+    font-weight: 700;
+  }
+
+  .about-welcome-title {
+    text-align: center;
+    font-size: 60px;
+    line-height: 65px;
+    margin-bottom: 40px;
+  }
+
+  .about-first-section {
+    width: 60%;
+    margin-bottom: 90px;
+  }
+
+  .about-legend {
+    line-height: 30px;
+  }
+
+  .about-logo-text p {
+    font-size: 20px;
+  }
+
+  .about-logo-text {
+    width: 70%;
+  }
+
+  .about-concerts-imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 12px;
+    width: 75%;
+  }
+
+  .soloists-cards {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main-program {
+    align-items: center;
+  }
+
+  .program {
+    display: flex;
+    gap: 5px;
+    width: 80%;
+  }
+
+  .program-items {
+    flex-direction: column;
+  }
+
+  .title-main {
+    margin: 0;
+  }
+
+  .gallery-pa {
+    margin: 0 12px 12px 12px;
+    padding-bottom: 12px;
+  }
+
+  .about-concerts-imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 12px;
+    width: 60%;
+  }
+}
