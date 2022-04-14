@@ -198,7 +198,7 @@ li {
   display: flex;
   flex-direction: column;
   margin: 12px;
-} 
+}
 
 .cards {
   display: flex;
@@ -274,10 +274,11 @@ li {
   margin: 10px;
 }
 
-#soloists-header{
+#soloists-header {
   margin-top: 24px;
   margin-bottom: 25px;
 }
+
 .footer {
   display: flex;
   justify-content: center;
@@ -286,7 +287,7 @@ li {
   margin: 20px;
 }
 
-.footer-img{
+.footer-img {
   width: 250px;
 }
 
