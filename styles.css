@@ -198,7 +198,6 @@ li {
   display: flex;
   flex-direction: column;
   margin: 12px;
-  gap: 25px;
 } 
 
 .cards {
@@ -208,10 +207,19 @@ li {
 .cards-img {
   width: 160px;
   height: 130px;
+  box-shadow: 10px 16px #8888883d;
 }
 
 .cards-text {
   margin-left: 12px;
+  max-width: 250px;
+}
+
+.soloists-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
 }
 
 .instruments {
@@ -251,9 +259,26 @@ li {
   text-align: center;
 }
 
-.image-sponsore {
-  width: 200px;
+.sponsores-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
 }
+
+.image-sponsore {
+  width: 150px;
+}
+
+.images {
+  margin: 10px;
+}
+
+#soloists-header{
+  margin-top: 24px;
+  margin-bottom: 25px;
+}
+
 /* about ####################################################### */
 
 .about-hello {
