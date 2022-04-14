@@ -34,7 +34,7 @@ function exit() {
 
 clear.addEventListener('click', exit);
 
-const soloists = document.querySelector("#soloists-header") 
+const soloists = document.querySelector(".soloists-cards") 
 
 const invitedSoloists = [
   {
@@ -99,7 +99,7 @@ const Card = ({soloist, photo, description, id, instrument}) =>`
   </div>`;
 
 invitedSoloists.forEach((object) => {
-  soloists.insertAdjacentHTML('afterend', Card(object));
+  soloists.insertAdjacentHTML('afterbegin', Card(object));
   const currentCard = document.querySelector(`#${object.id}`);
 });
 
