@@ -278,6 +278,23 @@ li {
   margin-top: 24px;
   margin-bottom: 25px;
 }
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.footer-img{
+  width: 250px;
+}
+
+.footer p {
+  text-align: center;
+  font-family: "lato", sans-serif;
+  font-weight: 100;
+}
 
 /* about ####################################################### */
 
