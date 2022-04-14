@@ -182,7 +182,7 @@ li {
 }
 
 .program-pa {
-  font-size: 12px;
+  font-size: 14px;
   margin: 12px;
 }
 
@@ -194,6 +194,66 @@ li {
   margin-right: 33px;
 }
 
+.soloists {
+  display: flex;
+  flex-direction: column;
+  margin: 12px;
+  gap: 25px;
+} 
+
+.cards {
+  display: flex;
+}
+
+.cards-img {
+  width: 160px;
+  height: 130px;
+}
+
+.cards-text {
+  margin-left: 12px;
+}
+
+.instruments {
+  margin-top: 10px;
+  font-family: "lato", serif;
+  font-weight: 800;
+  color: #ec5242;
+  font-size: 17px;
+}
+
+.description {
+  text-align: justify;
+  font-family: "lato", serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.partners {
+  margin-top: 24px;
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #d3d3d3;
+}
+
+.partners-line {
+  height: 2px;
+  background-color: #ec5242;
+  width: 80px;
+  margin: 0 auto;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.title-sponsor {
+  text-align: center;
+}
+
+.image-sponsore {
+  width: 200px;
+}
 /* about ####################################################### */
 
 .about-hello {
