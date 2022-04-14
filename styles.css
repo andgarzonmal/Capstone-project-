@@ -284,7 +284,6 @@ li {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 20px;
 }
 
 .footer-img {
@@ -464,6 +463,16 @@ li {
   background-size: cover;
   flex-direction: column;
   color: white;
+}
+
+.about-footer {
+  background-color: #272a31;
+  padding-top: 12px;
+}
+
+.about-footer p{
+  color: white;
+  margin-left: 12px;
 }
 
 @media screen and (min-width: 760px) {
